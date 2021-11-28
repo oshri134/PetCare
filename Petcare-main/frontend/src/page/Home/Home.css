@@ -1,0 +1,128 @@
+
+.cover {
+  margin-top: 100px;
+  width: 100%;
+  height: 80vh;
+  background-image: url("../../image/pet1.png");
+  background-size: 68% 100%;
+  background-repeat: no-repeat;
+  display: flex;
+  background-position: right bottom;
+}
+.cover .box {
+  width: 40%;
+  padding-top: 10%;
+  padding-left: 2%;
+  display: flex;
+  flex-direction: column;
+}
+.cover p {
+  color: black;
+  font-size: 30px;
+  font-family: "Montserrat";
+}
+.cover header {
+  font-size: 40px;
+  font-weight: bold;
+  line-height: 150%;
+  color: #7f84e8;
+  font-family: "Montserrat";
+} 
+
+.about {
+  display: flex;
+  justify-content: space-between;
+  padding: 30px;
+}
+
+ .about_contact {
+   width: 50%;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+}
+.about_contact img {
+  width: 500px;
+  height: 300px;
+}
+
+
+.about header {
+  font-size: 30px;
+text-align: center;
+  padding: 5%;
+  font-weight: bold;
+  line-height: 40px;
+  color: #7f84e8;
+  font-family: "Montserrat";
+}
+
+.about p {
+  line-height: 45px;
+  padding: 5%;
+  font-size: 30px;
+  font-family: "Montserrat";
+
+  margin-left: 10%;
+
+}
+
+.about .about_contact_right p {
+  border: solid;
+  line-height: 45px;
+  padding-top: 1%;
+  height: 500px;
+  width: 500px;
+
+  padding-left: 4% ;
+  font-size: 30px;
+  font-family: "Montserrat";
+}
+.vet {
+  background-image: url("../../image/vet.png");
+  background-repeat: no-repeat;
+  background-size: 34% 660px;
+  background-position: 90% 70%;
+
+}
+.header_vet {
+  line-height: 90%;
+  margin: 5% 35%;
+  font-size: 60px;
+  font-family: "Lobster";
+}
+.veterinarian{
+  display: flex;
+}
+.veterinarian p {
+  padding: 2% 0 0 5%;
+  margin: 0 0 15% 5%;
+  width: 50%;
+  font-family: "Montserrat";
+  font-size: 30px;
+  line-height: 1.2em;
+}
+.recommen header{
+  line-height: 90%;
+  margin: 15% 25% -1%;
+  width: 700px;
+
+  font-size: 60px;
+  font-family: "Lobster";
+}
+@media screen and (max-width: 750px) {
+  .cover {
+    background-size: 100%;
+    height: 300px;
+    opacity: 0.5;
+  }
+
+  .cover .box {
+    width: 100%;
+    padding-top: 0;
+  }
+}
+.home_wrapper{
+  display: flex;
+  flex-direction: column;
+}

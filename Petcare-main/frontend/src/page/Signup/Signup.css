@@ -1,0 +1,39 @@
+.registration {
+  width: 65%;
+  height: 100%;
+  margin-left: 35%;
+  position: absolute;
+}
+.registrationselection{
+  display: flex;
+  flex-direction: column;
+  width: 35%;
+  justify-content: center;
+  height: 100%;
+}
+.registrationselection label {
+  padding: 3%;
+  font-size: 25px;
+  line-height: 40px;
+}
+.buttons {
+  margin: 2% 0 0 8%;
+}
+
+.buttons_click {
+  margin: 0 0.9% !important;
+  font-size: 20px !important;
+}
+.buttons_click Link {
+  text-decoration: none;
+}
+.signin {
+  margin-left: 14%;
+  font-size: 25px;
+  margin: 1% 10%;
+  text-decoration: underline;
+}
+.signin:hover{
+  cursor: pointer;
+  color:rgb(88, 88, 214);
+}

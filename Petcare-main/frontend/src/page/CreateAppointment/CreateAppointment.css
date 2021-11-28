@@ -1,0 +1,14 @@
+.form-appointment {
+  display: contents;
+  width: 70%;
+}
+.center-text{
+  text-align: center;
+  font-size: 4rem;
+}
+.header-row{
+  display: flex;
+  justify-content: flex-end;
+  align-items: center;
+  flex-direction: column;
+}

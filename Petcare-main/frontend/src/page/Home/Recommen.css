@@ -1,0 +1,12 @@
+
+
+.Card{
+    margin: 15%;
+    padding: 60px 30px;
+    background-color: #D9DDF7;
+    font-size: 15px;
+    text-align: center;
+    display: flex;
+    flex-direction: column;
+
+}

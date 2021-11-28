@@ -1,0 +1,23 @@
+.form-wrapper {
+  width: 100%;
+  height: 100%;
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+}
+
+.form-inside{
+    width: 70%;
+    height: 70%;
+    display: flex;
+    flex-direction: column;
+    
+}
+.width-50{
+  width: 50%;
+}
+
+.headerpet{
+ padding: 10% 10% 10% 10%;
+}
